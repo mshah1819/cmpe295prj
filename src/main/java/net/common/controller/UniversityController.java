@@ -38,9 +38,8 @@ public class UniversityController {
 	public UniversityController(UniversityDAO universityDAO) {
 		this.universityDAO = universityDAO;
 	}
-	
-	// Specific search of customer - Providing auto suggestion option
 
+	// Specific search of customer - Providing auto suggestion option	
 	@RequestMapping(value = "/search.htm", method = RequestMethod.GET)  
 	public  @ResponseBody List<UniversityInfo> searchUniversity(@RequestParam(value = "startsWith", defaultValue="", required=true) String startsWith)  {
 		List<UniversityInfo> universityNameList = new ArrayList<UniversityInfo>(); 
@@ -66,6 +65,7 @@ public class UniversityController {
 		return universityNameList;
 	}  	
 }
+//@Autowired private UniversityDAO univDAO;
 //    @Autowired private UniversityDAO univDAO;      
 //    @RequestMapping(value = "/")
 //    public String home() {

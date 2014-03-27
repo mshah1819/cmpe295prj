@@ -993,7 +993,7 @@ Customer360App.Router = Backbone.Router.extend({
 });
 
 
-Customer360App.utils.templateLoader.load(['search-page-template', 'dashboard-template' , 'cases-template' , 'installbase-template' , 'contracts-template' , 'sites-template'],
+Customer360App.utils.templateLoader.load(['index-page-template', 'search-page-template', 'dashboard-template' , 'cases-template' , 'installbase-template' , 'contracts-template' , 'sites-template'],
 		function() {
 	//console.log("Customer360App.utils.templateLoader.load");
 	Customer360App.app = new Customer360App.Router();

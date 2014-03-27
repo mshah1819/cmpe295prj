@@ -20,11 +20,9 @@
 		href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" /> -->
 		 
 <link rel="stylesheet" href="css/jquery-ui.css" />
-<link rel="stylesheet" href="css/jquery-ui-1.10.3.custom.css"
-	type="text/css" />
+<link rel="stylesheet" href="css/jquery-ui-1.10.3.custom.css" type="text/css" />
 <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
-<link rel="stylesheet" href="css/bootstrap-responsive.min.css"
-	type="text/css" />
+<link rel="stylesheet" href="css/bootstrap-responsive.min.css" type="text/css" />
 
 <link href="css/style.css" rel="stylesheet" />
 
